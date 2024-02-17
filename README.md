@@ -1,5 +1,5 @@
 ## Information
-projek ini masi banyak bug
+projek ini masih memiliki banyak bug terutama ketika mengajukan sewa bus, sistem ini hanya bisa memproses card pertama
 
 ## Installation
 
