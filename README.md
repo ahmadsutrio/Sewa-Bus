@@ -8,6 +8,7 @@ Clone projek ini dengan command
 ```bash
 git clone https://github.com/ahmadsutrio/Sewa-Bus.git
 ```
+dan jalankan command
 
 ```bash
 composer install
