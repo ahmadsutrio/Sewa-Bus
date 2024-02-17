@@ -4,34 +4,37 @@ Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clone projek ini dengan command
 
 ```bash
-pip install foobar
+git clone https://github.com/ahmadsutrio/Sewa-Bus.git
 ```
+
+```bash
+composer install
+```
+jalankan perintah untuk menggenerate key dengan command
+
+```bash
+php artisan key:generate
+```
+
+ubah "env.example" menjadi .env
+
+pastikan sudah mengimport file sql yang ada di folder db dengan nama "balenong"
+
+pastikan DB_DATABASE di file .env sudah sesuai dengan nama database
+
 
 ## Usage
 
-```python
-import foobar
+untuk menjalankan projek gunakan command
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+php artisan serve
 ```
+atau
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+```bash
+php artisan serve --port=8001
+```
