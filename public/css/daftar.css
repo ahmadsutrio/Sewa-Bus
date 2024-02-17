@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* warna */
+:root {
+    --color-h-prymary: #007CE1;
+
+    --color-label-daftar: #000000;
+}
+
+body {
+    background-image: url(../img/background.png);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-h-prymary {
+    color: var(--color-h-prymary);
+    font-weight: 600;
+    letter-spacing: -0.006em;
+    font-size: 35px;
+}
+
+.label-daftar {
+    font-weight: 600;
+    letter-spacing: -0.006em;
+    color: var(--color-label-daftar);
+    font-size: 16px;
+}

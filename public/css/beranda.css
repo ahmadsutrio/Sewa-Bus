@@ -1,0 +1,146 @@
+/* Ambil dari templating.css */
+.tagline-text {
+    letter-spacing: 0.075em;
+    color: #2EAAD0;
+    font-weight: 700;
+    font-size: 37px;
+    white-space: nowrap;
+}
+
+.p-tagline {
+    color: var(--p-tagline);
+}
+
+.layanan {
+    font-weight: 700;
+    font-size: 47px;
+    letter-spacing: 0.075em;
+    color: var(--color-layanan);
+}
+
+.layanan-items {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.075em;
+    color: var(--color-layanan);
+}
+
+.title-rental-bus {
+    text-align: center;
+    letter-spacing: 0.075em;
+    font-size: 47px;
+    font-weight: 700;
+    color: var(--color-title-rental-bus)
+}
+
+.p-rental-bus {
+    text-align: center;
+    letter-spacing: 0.075em;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-p-rental-bus)
+}
+
+.hover-card {
+    background-color: var(--color-layanan);
+}
+
+.hover-card:hover {
+    background: #A5E9FE;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.vasilitas-item {
+    letter-spacing: -0.005em;
+    font-weight: 400;
+    white-space: wrap;
+    font-size: 7.3px;
+}
+
+.button-prymary {
+    background-color: var(--bg-button);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 37px;
+    color: #215261;
+}
+
+.bg-vasilitas {
+    background-color: var(--bg-vasilitas);
+    border-radius: 5px;
+}
+
+.bg-button-prymary {
+    background-color: var(--bg-button-prymary);
+}
+
+.hover-card-bus {
+    background-color: var(--color-layanan);
+    border: 1px solid #A19393;
+}
+
+.hover-card-bus:hover {
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+}
+
+@media (max-width: 575.98px) {
+    .layanan {
+        font-size: 30px;
+    }
+
+    .button-prymary {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .tagline-text {
+        letter-spacing: 0.075em;
+        color: #2EAAD0;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .layanan {
+        font-size: 30px;
+    }
+
+    .button-prymary {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .tagline-text {
+        letter-spacing: 0.075em;
+        color: #2EAAD0;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .layanan {
+        font-size: 30px;
+    }
+
+    .button-prymary {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .tagline-text {
+        letter-spacing: 0.075em;
+        color: #2EAAD0;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
